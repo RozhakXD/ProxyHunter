@@ -55,17 +55,17 @@ Misalnya, untuk melakukan scraping proxy dari Proxyscrape dan menyimpannya dalam
     - **Masalah**: Setelah menjalankan scraper, tidak ada proxy yang valid ditemukan.
     - **Solusi**: Coba gunakan sumber lain untuk scraping atau cek apakah sumber tersebut masih aktif dan menyediakan proxy yang valid.
 3. **Pemblokiran IP oleh Situs Penyedia Proxy**
-    - **Masalah**: Terlalu banyak permintaan dalam waktu singkat dapat menyebabkan pemblokiran IP Anda oleh situs penyedia proxy.
+    - **Masalah**: Mengirim terlalu banyak permintaan dalam waktu singkat dapat menyebabkan IP Anda diblokir oleh situs penyedia proxy.
     - **Solusi**: Tambahkan jeda waktu (delay) antara setiap permintaan atau gunakan proxy yang berbeda untuk setiap permintaan scraping.
 
 ## Dukungan
-Jika Anda merasa proyek ini bermanfaat dan ingin mendukung pengembangan lebih lanjut, Anda bisa memberikan dukungan melalui:
+Jika Anda merasa proyek ini bermanfaat dan ingin mendukung pengembangan lebih lanjut, Anda dapat memberikan dukungan melalui:
 
 - [Trakteer](https://trakteer.id/rozhak_official/tip)
 - [PayPal](https://paypal.me/rozhak9)
 
 ## Peringatan
-**Penggunaan bandwidth**: Menggunakan aplikasi ini untuk mengumpulkan dan memeriksa proxy dalam jumlah besar dapat mengkonsumsi bandwidth yang signifikan. Pastikan Anda memiliki koneksi internet yang cukup cepat dan stabil.
+Menggunakan aplikasi ini untuk mengumpulkan dan memeriksa proxy dalam jumlah besar dapat mengkonsumsi bandwidth yang signifikan. Pastikan Anda memiliki koneksi internet yang cukup cepat dan stabil.
 
 ## Tangkapan Layar
 ![FunPic_20240901-1](https://github.com/user-attachments/assets/e43aab98-ecc9-49f9-be7a-b2de92dec447)
