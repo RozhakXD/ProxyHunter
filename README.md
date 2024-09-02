@@ -7,9 +7,9 @@
 Program ini menampilkan hasil dengan antarmuka yang interaktif menggunakan modul `rich`, memberikan tampilan yang menarik dan user-friendly saat digunakan.
 
 ## Fitur
-- **Scraping Proxy**: Mendukung scraping proxy dari berbagai situs seperti Proxyscrape, Freeproxy, Spys-Me, dan banyak lagi.
-- **Validasi Proxy**: Mengecek keaktifan proxy yang telah di-scrape untuk memastikan proxy tersebut masih dapat digunakan.
 - **Antarmuka Pengguna yang Intuitif**: Menampilkan informasi IP dan kota pengguna, serta menampilkan opsi menu yang jelas dan mudah digunakan.
+- **Validasi Proxy**: Mengecek keaktifan proxy yang telah di-scrape untuk memastikan proxy tersebut masih dapat digunakan.
+- **Scraping Proxy**: Mendukung scraping proxy dari berbagai situs seperti Proxyscrape, Freeproxy, Spys-Me, dan banyak lagi.
 - **Penggunaan Multithreading**: Menggunakan multithreading untuk proses scraping yang lebih cepat dan efisien.
 
 ## Instalasi
@@ -38,8 +38,7 @@ Program ini menampilkan hasil dengan antarmuka yang interaktif menggunakan modul
 ## Contoh Penggunaan
 Misalnya, untuk melakukan scraping proxy dari Proxyscrape dan menyimpannya dalam file `Penyimpanan/Proxy.txt`:
 
-- Pilih opsi `01`.
-- Masukkan nama file `Penyimpanan/Proxy.txt`.
+- Pilih opsi `01` dan masukkan nama file `Penyimpanan/Proxy.txt`.
 - Tunggu hingga proses scraping selesai.
 - Proxy yang aktif akan disimpan di file yang telah Anda tentukan.
 
