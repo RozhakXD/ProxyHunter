@@ -31,7 +31,7 @@ Program ini menampilkan hasil dengan antarmuka yang interaktif menggunakan modul
     ```bash
     python Run.py
     ```
-3. Anda akan disajikan dengan berbagai pilihan menu untuk scraping dan validasi proxy.
+3. Anda akan disajikan berbagai pilihan menu untuk melakukan scraping dan validasi proxy.
 4. Ikuti petunjuk yang muncul di layar untuk memilih sumber scraping dan simpan hasilnya ke file yang Anda inginkan.
 5. Gunakan opsi validasi untuk memastikan proxy yang telah di-scrape masih aktif.
 
