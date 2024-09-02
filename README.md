@@ -65,9 +65,9 @@ Jika Anda merasa proyek ini bermanfaat dan ingin mendukung pengembangan lebih la
 - [PayPal](https://paypal.me/rozhak9)
 
 ## Peringatan
-Menggunakan aplikasi ini untuk mengumpulkan dan memeriksa proxy dalam jumlah besar dapat mengkonsumsi bandwidth yang signifikan. Pastikan koneksi internet Anda cukup cepat dan stabil untuk menghindari gangguan selama proses scraping.
+Menggunakan aplikasi ini untuk mengumpulkan dan memeriksa proxy dalam jumlah besar dapat menghabiskan banyak bandwidth. Pastikan koneksi internet Anda memadai untuk menghindari masalah selama proses.
 
-Selain itu, aplikasi ini dirancang untuk tujuan edukasi. Kami tidak bertanggung jawab atas penyalahgunaan atau konsekuensi negatif yang mungkin timbul dari penggunaan aplikasi ini. Harap gunakan dengan bijak dan sesuai dengan kebijakan serta peraturan yang berlaku.
+Aplikasi ini dibuat untuk tujuan edukasi. Kami tidak bertanggung jawab atas penyalahgunaan atau konsekuensi yang mungkin terjadi akibat penggunaan aplikasi ini. Gunakan dengan bijak dan sesuai dengan aturan yang berlaku.
 
 ## Tangkapan Layar
 ![FunPic_20240901-1](https://github.com/user-attachments/assets/e43aab98-ecc9-49f9-be7a-b2de92dec447)
