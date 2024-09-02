@@ -1,4 +1,4 @@
-# ProxyHunter - Proxy Checker and Scraper
+# PROXYHUNTER - PROXY CHECKER AND SCRAPER
 ![ProxyHunter Images](https://github.com/user-attachments/assets/94136f6c-445d-44fa-ad50-d65f0830f13e)
 
 ## Deskripsi
