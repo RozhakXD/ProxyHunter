@@ -50,7 +50,7 @@ Misalnya, untuk melakukan scraping proxy dari Proxyscrape dan menyimpannya dalam
 ## Masalah Umum dan Solusi
 1. **Koneksi Terputus atau Lambat**
     - **Masalah**: Jika koneksi internet Anda lambat atau tidak stabil, proses pengumpulan atau pengecekan proxy bisa gagal atau memakan waktu lama.
-    - **Solusi**: Pastikan koneksi internet Anda stabil. Anda juga bisa mengurangi jumlah `max_workers` dalam `ThreadPoolExecutor` untuk mengurangi beban pada koneksi Anda.
+    - **Solusi**: Pastikan koneksi internet Anda stabil. Anda juga dapat mengurangi jumlah `max_workers` dalam `ThreadPoolExecutor` untuk mengurangi beban pada koneksi.
 2. **Tidak Ada Proxy yang Valid Ditemukan**
     - **Masalah**: Setelah menjalankan scraper, tidak ada proxy yang valid ditemukan.
     - **Solusi**: Coba gunakan sumber lain untuk scraping atau cek apakah sumber tersebut masih aktif dan menyediakan proxy yang valid.
@@ -65,8 +65,7 @@ Jika Anda merasa proyek ini bermanfaat dan ingin mendukung pengembangan lebih la
 - [PayPal](https://paypal.me/rozhak9)
 
 ## Peringatan
-- **Penggunaan bandwidth**: Menggunakan aplikasi ini untuk mengumpulkan dan memeriksa proxy dalam jumlah besar dapat mengkonsumsi bandwidth yang signifikan. Pastikan Anda memiliki koneksi internet yang cukup cepat dan stabil.
-- **Potensi pemblokiran IP**: Beberapa situs penyedia proxy mungkin memblokir IP Anda jika mereka mendeteksi terlalu banyak permintaan dalam waktu singkat. Untuk menghindari hal ini, Anda bisa menambahkan jeda (delay) antara setiap permintaan.
+**Penggunaan bandwidth**: Menggunakan aplikasi ini untuk mengumpulkan dan memeriksa proxy dalam jumlah besar dapat mengkonsumsi bandwidth yang signifikan. Pastikan Anda memiliki koneksi internet yang cukup cepat dan stabil.
 
 ## Tangkapan Layar
 ![FunPic_20240901-1](https://github.com/user-attachments/assets/e43aab98-ecc9-49f9-be7a-b2de92dec447)
