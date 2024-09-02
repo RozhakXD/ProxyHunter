@@ -2,7 +2,7 @@
 ![ProxyHunter Images](https://github.com/user-attachments/assets/94136f6c-445d-44fa-ad50-d65f0830f13e)
 
 ## Deskripsi
-[Proxy Hunter](https://github.com/RozhakXD/ProxyHunter) adalah sebuah alat yang dirancang untuk memudahkan proses scraping proxy dan validasi proxy secara otomatis. Dengan fitur threading dan dukungan untuk berbagai jenis proxy, program ini dapat digunakan untuk mendapatkan proxy yang berkualitas dan valid dengan cepat dan efisien.
+[ProxyHunter](https://github.com/RozhakXD/ProxyHunter) adalah alat yang dirancang untuk mengotomatiskan proses scraping dan validasi proxy. Dengan kemampuan threading dan dukungan untuk berbagai jenis proxy, alat ini secara efisien menemukan proxy yang berkualitas dan valid dengan cepat.
 
 Program ini menampilkan hasil dengan antarmuka yang interaktif menggunakan modul `rich`, memberikan tampilan yang menarik dan user-friendly saat digunakan.
 
