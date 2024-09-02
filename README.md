@@ -4,7 +4,7 @@
 ## Deskripsi
 [ProxyHunter](https://github.com/RozhakXD/ProxyHunter) adalah alat yang dirancang untuk mengotomatiskan proses scraping dan validasi proxy. Dengan kemampuan threading dan dukungan untuk berbagai jenis proxy, alat ini secara efisien menemukan proxy yang berkualitas dan valid dengan cepat.
 
-Program ini menampilkan hasil dengan antarmuka yang interaktif menggunakan modul `rich`, memberikan tampilan yang menarik dan user-friendly saat digunakan.
+Program ini menampilkan hasil dengan antarmuka yang interaktif menggunakan modul `rich`, memberikan tampilan menarik dan user-friendly saat digunakan.
 
 ## Fitur
 - **Antarmuka Pengguna yang Intuitif**: Menampilkan informasi IP dan kota pengguna, serta menampilkan opsi menu yang jelas dan mudah digunakan.
