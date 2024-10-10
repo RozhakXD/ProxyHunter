@@ -19,12 +19,12 @@ class FEATURE:
             os.system("cls" if os.name == "nt" else "clear")
             printf(
                 Panel(
-                    """[bold red]  _____                     _    _             _            
+                    r"""[bold red]  _____                     _    _             _            
  |  __ \                   | |  | |           | |           
  | |__) | __ _____  ___   _| |__| |_   _ _ __ | |_ ___ _ __ 
  |  ___/ '__/ _ \ \/ / | | |  __  | | | | '_ \| __/ _ \ '__|
  | |   | | | (_) >  <| |_| | |  | | |_| | | | | ||  __/ |   
-[bold white] |_|   |_|  \___/_/\_\\\\__, |_|  |_|\__,_|_| |_|\__\___|_|   
+[bold white] |_|   |_|  \___/_/\_\\__, |_|  |_|\__,_|_| |_|\__\___|_|   
                        __/ |                                
                       |___/                                 
          [bold white][+] [underline white red]Scraper and Validator - by Rozhak[/][bold white] [+]""",
@@ -78,8 +78,8 @@ class FEATURE:
 [bold green]06[bold white]. Scrape from Free-List        [bold green]12[bold white]. Logout from Program""",
                     width=65,
                     style="bold bright_black",
-                    title="> [Feature] <",
-                    subtitle="╭───────",
+                    title="[bold bright_black]> [Feature] <",
+                    subtitle="[bold bright_black]╭───────",
                     subtitle_align="left",
                 )
             )
@@ -90,8 +90,8 @@ class FEATURE:
                         f"[bold white]Please fill in the file name to save your proxy, check the file is correct before entering. For example:[bold green] Penyimpanan/Proxy.txt[bold white] *[bold red]make sure there is access to write[bold white]!",
                         width=65,
                         style="bold bright_black",
-                        title="> [File Name] <",
-                        subtitle="╭───────",
+                        title="[bold bright_black]> [File Name] <",
+                        subtitle="[bold bright_black]╭───────",
                         subtitle_align="left",
                     )
                 )
@@ -102,7 +102,7 @@ class FEATURE:
                         f"[bold white]While collecting all available Proxies, you can use[bold green] CTRL + C[bold white] to stop, remember not to use[bold red] CTRL + Z[bold white] to save the Proxies!",
                         width=65,
                         style="bold bright_black",
-                        title="> [Warning] <",
+                        title="[bold bright_black]> [Warning] <",
                     )
                 )
 
@@ -117,8 +117,8 @@ class FEATURE:
                         f"[bold white]Please fill in the file name to save your proxy, check the file is correct before entering. For example:[bold green] Penyimpanan/Proxy.txt[bold white] *[bold red]make sure there is access to write[bold white]!",
                         width=65,
                         style="bold bright_black",
-                        title="> [File Name] <",
-                        subtitle="╭───────",
+                        title="[bold bright_black]> [File Name] <",
+                        subtitle="[bold bright_black]╭───────",
                         subtitle_align="left",
                     )
                 )
@@ -128,8 +128,8 @@ class FEATURE:
                         f"[bold white]You must fill in the number of pages on the proxy scrape, make sure it is more than 1 so that it can be\nprocessed. For example:[bold green] 10[bold white] *[bold red]remember to use only numbers[bold white]!",
                         width=65,
                         style="bold bright_black",
-                        title="> [Page Count] <",
-                        subtitle="╭───────",
+                        title="[bold bright_black]> [Page Count] <",
+                        subtitle="[bold bright_black]╭───────",
                         subtitle_align="left",
                     )
                 )
@@ -141,7 +141,7 @@ class FEATURE:
                         f"[bold white]While collecting all available Proxies, you can use[bold green] CTRL + C[bold white] to stop, remember not to use[bold red] CTRL + Z[bold white] to save the Proxies!",
                         width=65,
                         style="bold bright_black",
-                        title="> [Warning] <",
+                        title="[bold bright_black]> [Warning] <",
                     )
                 )
                 for PAGES in range(1, int(self.COUNT) + 1):
@@ -155,8 +155,8 @@ class FEATURE:
                         f"[bold white]Please fill in the file name to save your proxy, check the file is correct before entering. For example:[bold green] Penyimpanan/Proxy.txt[bold white] *[bold red]make sure there is access to write[bold white]!",
                         width=65,
                         style="bold bright_black",
-                        title="> [File Name] <",
-                        subtitle="╭───────",
+                        title="[bold bright_black]> [File Name] <",
+                        subtitle="[bold bright_black]╭───────",
                         subtitle_align="left",
                     )
                 )
@@ -166,8 +166,8 @@ class FEATURE:
                         f"[bold white]You must fill in the number of pages on the proxy scrape, make sure it is more than 1 so that it can be\nprocessed. For example:[bold green] 10[bold white] *[bold red]remember to use only numbers[bold white]!",
                         width=65,
                         style="bold bright_black",
-                        title="> [Page Count] <",
-                        subtitle="╭───────",
+                        title="[bold bright_black]> [Page Count] <",
+                        subtitle="[bold bright_black]╭───────",
                         subtitle_align="left",
                     )
                 )
@@ -179,7 +179,7 @@ class FEATURE:
                         f"[bold white]While collecting all available Proxies, you can use[bold green] CTRL + C[bold white] to stop, remember not to use[bold red] CTRL + Z[bold white] to save the Proxies!",
                         width=65,
                         style="bold bright_black",
-                        title="> [Warning] <",
+                        title="[bold bright_black]> [Warning] <",
                     )
                 )
                 for PAGES in range(1, int(self.COUNT) + 1):
@@ -193,8 +193,8 @@ class FEATURE:
                         f"[bold white]Please fill in the file name to save your proxy, check the file is correct before entering. For example:[bold green] Penyimpanan/Proxy.txt[bold white] *[bold red]make sure there is access to write[bold white]!",
                         width=65,
                         style="bold bright_black",
-                        title="> [File Name] <",
-                        subtitle="╭───────",
+                        title="[bold bright_black]> [File Name] <",
+                        subtitle="[bold bright_black]╭───────",
                         subtitle_align="left",
                     )
                 )
@@ -205,7 +205,7 @@ class FEATURE:
                         f"[bold white]While collecting all available Proxies, you can use[bold green] CTRL + C[bold white] to stop, remember not to use[bold red] CTRL + Z[bold white] to save the Proxies!",
                         width=65,
                         style="bold bright_black",
-                        title="> [Warning] <",
+                        title="[bold bright_black]> [Warning] <",
                     )
                 )
 
@@ -220,8 +220,8 @@ class FEATURE:
                         f"[bold white]Please fill in the file name to save your proxy, check the file is correct before entering. For example:[bold green] Penyimpanan/Proxy.txt[bold white] *[bold red]make sure there is access to write[bold white]!",
                         width=65,
                         style="bold bright_black",
-                        title="> [File Name] <",
-                        subtitle="╭───────",
+                        title="[bold bright_black]> [File Name] <",
+                        subtitle="[bold bright_black]╭───────",
                         subtitle_align="left",
                     )
                 )
@@ -232,7 +232,7 @@ class FEATURE:
                         f"[bold white]While collecting all available Proxies, you can use[bold green] CTRL + C[bold white] to stop, remember not to use[bold red] CTRL + Z[bold white] to save the Proxies!",
                         width=65,
                         style="bold bright_black",
-                        title="> [Warning] <",
+                        title="[bold bright_black]> [Warning] <",
                     )
                 )
 
@@ -247,8 +247,8 @@ class FEATURE:
                         f"[bold white]Please fill in the file name to save your proxy, check the file is correct before entering. For example:[bold green] Penyimpanan/Proxy.txt[bold white] *[bold red]make sure there is access to write[bold white]!",
                         width=65,
                         style="bold bright_black",
-                        title="> [File Name] <",
-                        subtitle="╭───────",
+                        title="[bold bright_black]> [File Name] <",
+                        subtitle="[bold bright_black]╭───────",
                         subtitle_align="left",
                     )
                 )
@@ -258,8 +258,8 @@ class FEATURE:
                         f"[bold white]You must fill in the number of pages on the proxy scrape, make sure it is more than 1 so that it can be\nprocessed. For example:[bold green] 10[bold white] *[bold red]remember to use only numbers[bold white]!",
                         width=65,
                         style="bold bright_black",
-                        title="> [Page Count] <",
-                        subtitle="╭───────",
+                        title="[bold bright_black]> [Page Count] <",
+                        subtitle="[bold bright_black]╭───────",
                         subtitle_align="left",
                     )
                 )
@@ -271,7 +271,7 @@ class FEATURE:
                         f"[bold white]While collecting all available Proxies, you can use[bold green] CTRL + C[bold white] to stop, remember not to use[bold red] CTRL + Z[bold white] to save the Proxies!",
                         width=65,
                         style="bold bright_black",
-                        title="> [Warning] <",
+                        title="[bold bright_black]> [Warning] <",
                     )
                 )
                 for PAGES in range(1, int(self.COUNT) + 1):
@@ -285,8 +285,8 @@ class FEATURE:
                         f"[bold white]Please fill in the file name to save your proxy, check the file is correct before entering. For example:[bold green] Penyimpanan/Proxy.txt[bold white] *[bold red]make sure there is access to write[bold white]!",
                         width=65,
                         style="bold bright_black",
-                        title="> [File Name] <",
-                        subtitle="╭───────",
+                        title="[bold bright_black]> [File Name] <",
+                        subtitle="[bold bright_black]╭───────",
                         subtitle_align="left",
                     )
                 )
@@ -296,8 +296,8 @@ class FEATURE:
                         f"[bold white]You must fill in the number of pages on the proxy scrape, make sure it is more than 1 so that it can be\nprocessed. For example:[bold green] 10[bold white] *[bold red]remember to use only numbers[bold white]!",
                         width=65,
                         style="bold bright_black",
-                        title="> [Page Count] <",
-                        subtitle="╭───────",
+                        title="[bold bright_black]> [Page Count] <",
+                        subtitle="[bold bright_black]╭───────",
                         subtitle_align="left",
                     )
                 )
@@ -309,7 +309,7 @@ class FEATURE:
                         f"[bold white]While collecting all available Proxies, you can use[bold green] CTRL + C[bold white] to stop, remember not to use[bold red] CTRL + Z[bold white] to save the Proxies!",
                         width=65,
                         style="bold bright_black",
-                        title="> [Warning] <",
+                        title="[bold bright_black]> [Warning] <",
                     )
                 )
                 with requests.Session() as SESSION:
@@ -342,8 +342,8 @@ class FEATURE:
                         f"[bold white]Please fill in the file name to save your proxy, check the file is correct before entering. For example:[bold green] Penyimpanan/Proxy.txt[bold white] *[bold red]make sure there is access to write[bold white]!",
                         width=65,
                         style="bold bright_black",
-                        title="> [File Name] <",
-                        subtitle="╭───────",
+                        title="[bold bright_black]> [File Name] <",
+                        subtitle="[bold bright_black]╭───────",
                         subtitle_align="left",
                     )
                 )
@@ -354,7 +354,7 @@ class FEATURE:
                         f"[bold white]While collecting all available Proxies, you can use[bold green] CTRL + C[bold white] to stop, remember not to use[bold red] CTRL + Z[bold white] to save the Proxies!",
                         width=65,
                         style="bold bright_black",
-                        title="> [Warning] <",
+                        title="[bold bright_black]> [Warning] <",
                     )
                 )
 
@@ -369,8 +369,8 @@ class FEATURE:
                         f"[bold white]Please fill in the file name to save your proxy, check the file is correct before entering. For example:[bold green] Penyimpanan/Proxy.txt[bold white] *[bold red]make sure there is access to write[bold white]!",
                         width=65,
                         style="bold bright_black",
-                        title="> [File Name] <",
-                        subtitle="╭───────",
+                        title="[bold bright_black]> [File Name] <",
+                        subtitle="[bold bright_black]╭───────",
                         subtitle_align="left",
                     )
                 )
@@ -381,7 +381,7 @@ class FEATURE:
                         f"[bold white]While collecting all available Proxies, you can use[bold green] CTRL + C[bold white] to stop, remember not to use[bold red] CTRL + Z[bold white] to save the Proxies!",
                         width=65,
                         style="bold bright_black",
-                        title="> [Warning] <",
+                        title="[bold bright_black]> [Warning] <",
                     )
                 )
 
@@ -396,8 +396,8 @@ class FEATURE:
                         f"[bold white]Please fill in the file name to save your proxy, check the file is correct before entering. For example:[bold green] Penyimpanan/Proxy.txt[bold white] *[bold red]make sure there is access to write[bold white]!",
                         width=65,
                         style="bold bright_black",
-                        title="> [File Name] <",
-                        subtitle="╭───────",
+                        title="[bold bright_black]> [File Name] <",
+                        subtitle="[bold bright_black]╭───────",
                         subtitle_align="left",
                     )
                 )
@@ -409,7 +409,7 @@ class FEATURE:
                         f"[bold white]While collecting all available Proxies, you can use[bold green] CTRL + C[bold white] to stop, remember not to use[bold red] CTRL + Z[bold white] to save the Proxies!",
                         width=65,
                         style="bold bright_black",
-                        title="> [Warning] <",
+                        title="[bold bright_black]> [Warning] <",
                     )
                 )
                 with requests.Session() as SESSION:
@@ -449,8 +449,8 @@ class FEATURE:
                         f"[bold white]Please fill in the file that contains the proxy list, make sure the file is available. For example:[bold green] Penyimpanan/Prox\ny.txt[bold white] *remember the ip and proxy separator must be a[bold red] colon[bold white]!",
                         width=65,
                         style="bold bright_black",
-                        title="> [File Name] <",
-                        subtitle="╭───────",
+                        title="[bold bright_black]> [File Name] <",
+                        subtitle="[bold bright_black]╭───────",
                         subtitle_align="left",
                     )
                 )
@@ -461,8 +461,8 @@ class FEATURE:
                         f"[bold white]You must choose to use https to validate whether the proxy is valid or not, type[bold green] Y[bold white] if you want to use https otherwise\ntype[bold red] N[bold white]. For example:[bold green] Y[bold white] *[bold yellow]remember there are only two choices!",
                         width=65,
                         style="bold bright_black",
-                        title="> [Protocol] <",
-                        subtitle="╭───────",
+                        title="[bold bright_black]> [Protocol] <",
+                        subtitle="[bold bright_black]╭───────",
                         subtitle_align="left",
                     )
                 )
@@ -473,7 +473,7 @@ class FEATURE:
                         f"[bold white]While checking proxy live or dead, you can use[bold red] CTRL + Z[bold white] to stop and make sure your connection is good!",
                         width=65,
                         style="bold bright_black",
-                        title="> [Warning] <",
+                        title="[bold bright_black]> [Warning] <",
                     )
                 )
                 CHECKER().THREAD_POOL_EXECUTOR(
@@ -485,7 +485,7 @@ class FEATURE:
                         f"[bold white]Thank you for using this program, you are now successfully logged out!",
                         width=65,
                         style="bold bright_black",
-                        title="> [Leave] <",
+                        title="[bold bright_black]> [Leave] <",
                     )
                 )
                 sys.exit()
@@ -495,7 +495,7 @@ class FEATURE:
                         f"[bold red]The option you entered is not available in the Features, please try another option!",
                         width=65,
                         style="bold bright_black",
-                        title="> [Wrong Choice] <",
+                        title="[bold bright_black]> [Wrong Choice] <",
                     )
                 )
                 time.sleep(4.5)
@@ -506,7 +506,7 @@ class FEATURE:
                     f"[bold red]{str(e).capitalize()}!",
                     width=65,
                     style="bold bright_black",
-                    title="> [Error] <",
+                    title="[bold bright_black]> [Error] <",
                 )
             )
             sys.exit()
@@ -528,7 +528,7 @@ class FEATURE:
 [bold white]Files :[bold red] {files}""",
                     width=65,
                     style="bold bright_black",
-                    title="> [Sukses] <",
+                    title="[bold bright_black]> [Sukses] <",
                 )
             )
             return True
@@ -538,7 +538,7 @@ class FEATURE:
                     f"[bold red]Didn't find any Proxy from this service, please try again later or try using another service!",
                     width=65,
                     style="bold bright_black",
-                    title="> [Empty Proxy] <",
+                    title="[bold bright_black]> [Empty Proxy] <",
                 )
             )
             return False
@@ -605,7 +605,7 @@ class CHECKER:
 [bold white]Files :[bold yellow] {datetime.datetime.now().strftime(f"Temporary/Live-%d-%m-%Y.txt")}""",
                 width=65,
                 style="bold bright_black",
-                title="> [Sukses] <",
+                title="[bold bright_black]> [Sukses] <",
             )
         )
         sys.exit()
